@@ -1,0 +1,121 @@
+{
+  "movie": [
+    {
+      "id": 1,
+      "name": "The Avengers",
+      "stockCount": 25,
+      "type": 2
+    },
+    {
+      "id": 2,
+      "name": "Shawshank Redemption",
+      "stockCount": 2,
+      "type": 3
+    },
+    {
+      "id": 3,
+      "name": "Aquaman",
+      "stockCount": 37,
+      "type": 1
+    },
+    {
+      "id": 50,
+      "name": "Spider-Man: Into the Spider-Verse",
+      "stockCount": 0,
+      "type": 1
+    },
+    {
+      "id": 214,
+      "name": "The Upside",
+      "stockCount": 5,
+      "type": 1
+    },
+    {
+      "id": 25,
+      "name": "The Kid Who Would Be King",
+      "stockCount": 3,
+      "type": 1
+    },
+    {
+      "id": 26,
+      "name": "Forrest Gump",
+      "stockCount": 2,
+      "type": 3
+    },
+    {
+      "id": 27,
+      "name": "The Dark Knight",
+      "stockCount": 11,
+      "type": 2
+    },
+    {
+      "id": 125,
+      "name": "Schindler's List",
+      "stockCount": 7,
+      "type": 3
+    },
+    {
+      "id": 130,
+      "name": "The Lord of the Rings: The Two Towers",
+      "stockCount": 2,
+      "type": 2
+    },
+    {
+      "id": 131,
+      "name": "Whiplash",
+      "stockCount": 8,
+      "type": 2
+    },
+    {
+      "id": 12,
+      "name": "The Intouchables",
+      "stockCount": 1,
+      "type": 2
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Maria Kusk",
+      "points": 32
+    },
+    {
+      "id": 2,
+      "name": "Kristian Vehmas",
+      "points": 0
+    },
+    {
+      "id": 3,
+      "name": "Irina Tamm",
+      "points": 455
+    },
+    {
+      "id": 5,
+      "name": "Mikk Saar",
+      "points": "25"
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "customer": 2,
+      "orderDate": "2019-01-20",
+      "items": [
+        {
+          "movie": 3,
+          "type": 1,
+          "paidByBonus": false,
+          "days": 15,
+          "returnedDay": null
+        },
+        {
+          "movie": 26,
+          "type": 3,
+          "paidByBonus": true,
+          "days": 2,
+          "returnedDay": null
+        }
+      ]
+    }
+  ]
+}

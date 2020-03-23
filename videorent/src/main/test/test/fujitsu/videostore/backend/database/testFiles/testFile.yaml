@@ -1,0 +1,78 @@
+---
+movie:
+- name: "Spider-Man: Into the Spider-Verse"
+  id: 50
+  type: 1
+  stockCount: 0
+- name: "The Upside"
+  id: 214
+  type: 1
+  stockCount: 5
+- name: "The Kid Who Would Be King"
+  id: 25
+  type: 1
+  stockCount: 3
+- name: "Forrest Gump"
+  id: 26
+  type: 3
+  stockCount: 2
+- name: "The Dark Knight"
+  id: 27
+  type: 2
+  stockCount: 11
+- name: "Schindler's List"
+  id: 125
+  type: 3
+  stockCount: 7
+- name: "The Lord of the Rings: The Two Towers"
+  id: 130
+  type: 2
+  stockCount: 2
+- name: "Whiplash"
+  id: 131
+  type: 2
+  stockCount: 8
+- name: "The Intouchables"
+  id: 12
+  type: 2
+  stockCount: 1
+- name: "The Avengers"
+  id: 1
+  type: 2
+  stockCount: 25
+- name: "Shawshank Redemption"
+  id: 2
+  type: 3
+  stockCount: 2
+- name: "Aquaman"
+  id: 3
+  type: 1
+  stockCount: 37
+customer:
+- name: "Mikk Saar"
+  id: 5
+  points: 25
+- name: "Maria Kusk"
+  id: 1
+  points: 32
+- name: "Kristian Vehmas"
+  id: 2
+  points: 0
+- name: "Irina Tamm"
+  id: 3
+  points: 455
+order:
+- id: 1
+  orderDate: "2019-01-20"
+  items:
+  - movie: 3
+    paidByBonus: false
+    days: 15
+    returnedDay: null
+    type: 1
+  - movie: 26
+    paidByBonus: true
+    days: 2
+    returnedDay: null
+    type: 3
+  customer: 2
