@@ -275,11 +275,12 @@ public class OrderToReceiptServiceTest {
         customer.setName("Kati Karu");
         rentOrder.setCustomer(customer);
         returnOrder.setRentOrder(rentOrder);
+        returnOrder.setReturnDate(LocalDate.parse("2020-03-21"));
         PrintableReturnReceipt receipt = service.convertRentOrderToReceipt(returnOrder);
         Assert.assertEquals("ID: -1 (Return)\n" +
                 "Rent date: 15.03.2020\n" +
                 "Customer: Kati Karu\n" +
-                "Return date: 22.03.2020\n" +
+                "Return date: 21.03.2020\n" +
                 "Pirates of the Caribbean: Dead Men Tell No Tales (New release) 5 extra days 20 EUR\n" +
                 "\n" +
                 "Total late charge: 20 EUR", receipt.print());
